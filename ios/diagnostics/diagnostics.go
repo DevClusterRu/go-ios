@@ -21,19 +21,19 @@ func New(device ios.DeviceEntry) (*Connection, error) {
 	return &Connection{deviceConn: deviceConn, plistCodec: ios.NewPlistCodec()}, nil
 }
 
-func Reboot(device ios.DeviceEntry) error {
+func Reboot(device ios.DeviceEntry, WaitForDisconnect, DisplayFail, DisplayPass bool) error {
 	service, err := New(device)
 	if err != nil {
 		return err
 	}
-	err = service.Reboot()
+	err = service.Reboot(WaitForDisconnect, DisplayFail, DisplayPass)
 	if err != nil {
 		return err
 	}
 	return service.Close()
 }
 
-func (diagnosticsConn *Connection) Reboot() error {
+func (diagnosticsConn *Connection) Reboot(WaitForDisconnect, DisplayFail, DisplayPass bool) error {
 	req := rebootRequest{Request: "Restart", WaitForDisconnect: true, DisplayFail: true, DisplayPass: true}
 	reader := diagnosticsConn.deviceConn.Reader()
 	bytes, err := diagnosticsConn.plistCodec.Encode(req)
