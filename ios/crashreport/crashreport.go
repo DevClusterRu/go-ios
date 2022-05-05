@@ -2,8 +2,8 @@ package crashreport
 
 import (
 	"fmt"
-	"github.com/danielpaulus/go-ios/ios"
-	"github.com/danielpaulus/go-ios/ios/afc"
+	"github.com/DevClusterRu/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios/afc"
 	log "github.com/sirupsen/logrus"
 	"os"
 	"path"

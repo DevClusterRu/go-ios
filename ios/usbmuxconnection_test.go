@@ -7,7 +7,7 @@ import (
 	"net"
 	"testing"
 
-	ios "github.com/danielpaulus/go-ios/ios"
+	ios "github.com/DevClusterRu/go-ios/ios"
 	"github.com/stretchr/testify/assert"
 	mock "github.com/stretchr/testify/mock"
 )
@@ -96,7 +96,7 @@ type DeviceConnectionMock struct {
 	mock.Mock
 }
 
-func (mock *DeviceConnectionMock) Close() error{
+func (mock *DeviceConnectionMock) Close() error {
 	mock.Called()
 	return nil
 }

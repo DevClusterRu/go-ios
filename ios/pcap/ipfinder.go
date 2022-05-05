@@ -1,7 +1,7 @@
 package pcap
 
 import (
-	"github.com/danielpaulus/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	log "github.com/sirupsen/logrus"
@@ -29,7 +29,6 @@ func FindIp(device ios.DeviceEntry) (NetworkInfo, error) {
 
 }
 
-
 func findIp(device ios.DeviceEntry, mac string) (NetworkInfo, error) {
 	intf, err := ios.ConnectToService(device, "com.apple.pcapd")
 	if err != nil {
@@ -52,7 +51,7 @@ func findIp(device ios.DeviceEntry, mac string) (NetworkInfo, error) {
 			return NetworkInfo{}, err
 		}
 		if len(packet) > 0 {
-			err:=findIP(packet, &info)
+			err := findIP(packet, &info)
 			if err != nil {
 				return NetworkInfo{}, err
 			}

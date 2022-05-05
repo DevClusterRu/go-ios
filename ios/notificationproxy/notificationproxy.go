@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	ios "github.com/danielpaulus/go-ios/ios"
+	ios "github.com/DevClusterRu/go-ios/ios"
 	log "github.com/sirupsen/logrus"
 	"howett.net/plist"
 )

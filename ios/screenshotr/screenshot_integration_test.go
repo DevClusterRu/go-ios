@@ -1,11 +1,12 @@
+//go:build !fast
 // +build !fast
 
 package screenshotr_test
 
 import (
 	"encoding/binary"
-	"github.com/danielpaulus/go-ios/ios"
-	"github.com/danielpaulus/go-ios/ios/screenshotr"
+	"github.com/DevClusterRu/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios/screenshotr"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

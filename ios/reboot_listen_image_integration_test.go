@@ -4,8 +4,8 @@
 package ios_test
 
 import (
-	"github.com/danielpaulus/go-ios/ios"
-	"github.com/danielpaulus/go-ios/ios/diagnostics"
+	"github.com/DevClusterRu/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios/diagnostics"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"os"

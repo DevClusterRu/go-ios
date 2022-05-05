@@ -3,8 +3,8 @@ package imagemounter
 import (
 	"errors"
 	"fmt"
+	"github.com/DevClusterRu/go-ios/ios"
 	"github.com/Masterminds/semver"
-	"github.com/danielpaulus/go-ios/ios"
 	log "github.com/sirupsen/logrus"
 	"io"
 	"os"

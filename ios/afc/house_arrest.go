@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/danielpaulus/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios"
 
 	"howett.net/plist"
 )

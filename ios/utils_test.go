@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	ios "github.com/danielpaulus/go-ios/ios"
+	ios "github.com/DevClusterRu/go-ios/ios"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
@@ -53,6 +53,7 @@ func TestPlistConversion(t *testing.T) {
 	}
 
 }
+
 //needed for windows support. Without i, we would have different linebreaks with n and with rn
 //and the test would fail.
 func removeLineBreaks(s string) string {

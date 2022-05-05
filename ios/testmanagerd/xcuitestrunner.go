@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/danielpaulus/go-ios/ios"
-	"github.com/danielpaulus/go-ios/ios/afc"
-	dtx "github.com/danielpaulus/go-ios/ios/dtx_codec"
-	"github.com/danielpaulus/go-ios/ios/installationproxy"
-	"github.com/danielpaulus/go-ios/ios/instruments"
-	"github.com/danielpaulus/go-ios/ios/nskeyedarchiver"
+	"github.com/DevClusterRu/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios/afc"
+	dtx "github.com/DevClusterRu/go-ios/ios/dtx_codec"
+	"github.com/DevClusterRu/go-ios/ios/installationproxy"
+	"github.com/DevClusterRu/go-ios/ios/instruments"
+	"github.com/DevClusterRu/go-ios/ios/nskeyedarchiver"
 	"github.com/google/uuid"
 	log "github.com/sirupsen/logrus"
 )

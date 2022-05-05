@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	ios "github.com/danielpaulus/go-ios/ios"
-	"github.com/danielpaulus/go-ios/ios/nskeyedarchiver"
+	ios "github.com/DevClusterRu/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios/nskeyedarchiver"
 	log "github.com/sirupsen/logrus"
 )
 

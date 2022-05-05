@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/DevClusterRu/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios/zipconduit"
 	"github.com/Masterminds/semver"
-	"github.com/danielpaulus/go-ios/ios"
-	"github.com/danielpaulus/go-ios/ios/zipconduit"
 	log "github.com/sirupsen/logrus"
 )
 

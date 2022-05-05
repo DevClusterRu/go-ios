@@ -2,7 +2,7 @@ package zipconduit
 
 import (
 	"encoding/binary"
-	"github.com/danielpaulus/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios"
 	log "github.com/sirupsen/logrus"
 	"hash/crc32"
 	"io"

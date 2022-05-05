@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/danielpaulus/go-ios.git"
+        "url": "git+https://github.com/DevClusterRu/go-ios.git"
       },
     "author": "Daniel Paulus",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/danielpaulus/go-ios/issues"
+      "url": "https://github.com/DevClusterRu/go-ios/issues"
     },
-    "homepage": "https://github.com/danielpaulus/go-ios#readme",
+    "homepage": "https://github.com/DevClusterRu/go-ios#readme",
     "goBinary": {
       "name": "ios",
       "path": "./bin"

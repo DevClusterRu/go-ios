@@ -5,7 +5,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/danielpaulus/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios"
 	log "github.com/sirupsen/logrus"
 )
 

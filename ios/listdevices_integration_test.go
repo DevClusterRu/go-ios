@@ -4,7 +4,7 @@
 package ios_test
 
 import (
-	"github.com/danielpaulus/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios"
 	"os"
 	"testing"
 )

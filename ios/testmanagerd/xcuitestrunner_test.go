@@ -5,11 +5,11 @@ package testmanagerd_test
 
 import (
 	"fmt"
-	"github.com/danielpaulus/go-ios/ios"
-	"github.com/danielpaulus/go-ios/ios/imagemounter"
-	"github.com/danielpaulus/go-ios/ios/installationproxy"
-	"github.com/danielpaulus/go-ios/ios/testmanagerd"
-	"github.com/danielpaulus/go-ios/ios/zipconduit"
+	"github.com/DevClusterRu/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios/imagemounter"
+	"github.com/DevClusterRu/go-ios/ios/installationproxy"
+	"github.com/DevClusterRu/go-ios/ios/testmanagerd"
+	"github.com/DevClusterRu/go-ios/ios/zipconduit"
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 	"os/exec"

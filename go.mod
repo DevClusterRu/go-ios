@@ -1,10 +1,9 @@
-module github.com/danielpaulus/go-ios
+module github.com/DevClusterRu/go-ios
 
 go 1.17
 
 require (
 	github.com/Masterminds/semver v1.5.0
-	github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815
 	github.com/fullsailor/pkcs7 v0.0.0-20190404230743-d7302db945fa
 	github.com/google/gopacket v1.1.19
 	github.com/google/uuid v1.1.2

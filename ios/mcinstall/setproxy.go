@@ -2,7 +2,7 @@ package mcinstall
 
 import (
 	"fmt"
-	"github.com/danielpaulus/go-ios/ios"
+	"github.com/DevClusterRu/go-ios/ios"
 )
 
 //RemoveProxy unsets the global HTTP proxy config again by deleting the global config profile
